@@ -28,22 +28,39 @@ O fluxo do projeto inclui:
 - Garantir **validação fora da amostra** usando walk-forward  
 
 ---
-## 📊 Resultados do Backtest Anual
+## 📊 Resultados do Backtest Anual (2020–2024)
 
-A estratégia de **Pairs Trading** foi testada de 2020 a 2024. Os resultados demonstram seu desempenho frente à renda fixa (CDI) e ao índice Bovespa (Ibovespa):
+A estratégia de **Pairs Trading** foi testada de 2020 a 2024, com os seguintes resultados:
 
-| Ano  | Retorno Estratégia (%) | Sharpe | CDI (%) | Ibovespa (%) |
-|------|----------------------|--------|---------|--------------|
-| 2020 | 24.45                | 1.24   | 2.75    | -1.99        |
-| 2021 | 16.41                | 1.11   | 2.65    | 2.92         |
-| 2022 | -0.90                | -1.23  | 9.90    | 4.08         |
-| 2023 | 28.97                | 1.69   | 5.80    | 13.30        |
-| 2024 | 3.00                 | -0.70  | 6.20    | 1.50         |
+| Ano  | Retorno Estratégia (%) | Sharpe | CDI Acumulado (%) | Retorno Ibovespa (%) |
+|------|------------------------|--------|-------------------|----------------------|
+| 2020 | 24.45                  | 1.24   | 2.77              | 2.92                 |
+| 2021 | 16.41                  | 1.11   | 4.40              | -11.93               |
+| 2022 | -0.90                  | -1.23  | 12.39             | 4.69                 |
+| 2023 | 28.97                  | 1.69   | 13.04             | 22.28                |
+| 2024 | 3.00                   | -0.70  | 10.88             | -10.36               |
 
-### 🔹 Observações
-- A estratégia apresentou **bons retornos e Sharpe positivos** em 2020, 2021 e 2023, superando CDI e Ibovespa.  
-- Em 2022 e 2024, o retorno foi baixo ou negativo, indicando que a estratégia é sensível a **mercados com forte tendência ou choques de volatilidade**.  
-- A análise reforça a importância de **monitoramento contínuo dos pares, hedge dinâmico e ajuste anual do portfólio**.
+> **Fontes**:  
+> - CDI Acumulado: [brasilindicadores.com.br](https://brasilindicadores.com.br/cdi/)  
+> - Retorno Ibovespa: [sistemaswebb3-listados.b3.com.br](https://sistemaswebb3-listados.b3.com.br/indexStatisticsPage/variation/IBOVESPA?language=pt-br)
+
+---
+
+### 🔹 Análise Comparativa
+
+- **2020**: A estratégia superou o CDI e o Ibovespa, com retorno expressivo de 24.45% e Sharpe de 1.24, indicando boa relação risco-retorno.
+
+- **2021**: Apesar do bom retorno absoluto (16.41%), o Ibovespa teve desempenho negativo (-11.93%), destacando a resiliência da estratégia em mercados voláteis.
+
+- **2022**: Retorno negativo da estratégia (-0.90%), inferior ao CDI (12.39%) e ao Ibovespa (4.69%), sugerindo que a estratégia é sensível a choques de mercado.
+
+- **2023**: Excelente desempenho (28.97%), superando CDI (13.04%) e Ibovespa (22.28%), com Sharpe elevado (1.69), indicando eficiência na captura de oportunidades.
+
+- **2024**: Retorno modesto (3.00%) e Sharpe negativo (-0.70), inferior ao CDI (10.88%) e ao Ibovespa (-10.36%), sugerindo necessidade de reavaliação dos pares ou ajustes na estratégia.
+
+---
+
+Se desejar, posso fornecer gráficos comparativos do equity da estratégia versus CDI e Ibovespa para uma análise visual mais aprofundada. Gostaria de prosseguir com isso?
 
 
 
